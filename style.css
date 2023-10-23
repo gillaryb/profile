@@ -23,7 +23,7 @@ h3{
 }
 
 img{
-  width: 90%;
+  width: 70%;
   height:90%;
   border-radius: 5px 70px 70px 5px;
   max-height: 600px;
@@ -38,6 +38,10 @@ p{
 
 ul{
   list-style: none;
+}
+
+a{
+  color: #800080;
 }
 
 
@@ -58,12 +62,12 @@ a:hover{
 }
 
 .half-circle {
-    width: 100%;
+    width: 80%;
     height: 550px;
     border-radius: 5px 70px 70px 5px;
     background-color: purple;
     position: absolute;
-    bottom: -8px;
+    bottom: -4px;
     z-index: -1;
 }
 
@@ -118,6 +122,15 @@ a:hover{
 
 .white-card p{
   opacity: 0.6;
+}
+
+　.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
 }
 
 @media (max-width: 960px) {
